@@ -34,6 +34,11 @@ var indexController = {
  	 * @return: {none}
 	 */
 	convert: function () {
+ 		$("#convert").click(){
+					parser();
+					convert();
+			}
+		}
  		return false;
 	},
 }
